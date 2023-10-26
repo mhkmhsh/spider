@@ -30,3 +30,24 @@ transform: 1s ease-in-out;
     position: relative;
     border-radius: 50%;
 }
+.spider .body .eye {
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.spider .body .eye:after {
+
+    background:#000;
+    width: 7px;
+    height:7px;
+    content:'';
+    display:block;
+    margin:55%;
+    border-radius:50%;
+
+    animation:look 8s infinite;
+}
