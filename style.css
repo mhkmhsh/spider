@@ -4,3 +4,12 @@ html{
 html:hover .spider {
     top: -120%;
 }
+.spider {
+    position:absolute;
+    display:inline-block;
+    top:0;
+    left:30%;
+}
+
+animation: swing 2s infinite;
+transform-origin: top;
