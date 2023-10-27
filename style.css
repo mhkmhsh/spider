@@ -1,6 +1,36 @@
 html{
     background:#dabcb6;
 }
+body{
+
+    background-color:#86a6a1;
+    transition:4s;
+    animation:example1;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes example1{
+    0%{
+     
+      background:#c55974;
+  
+    }
+    50%{
+      background:#c3e3d7;
+      border-radius: 100px;
+     
+    }
+    75%{
+      background:#c04312;
+      border-radius: 100px;
+     
+    }
+    100%{
+      background:#86a6a1;
+    }
+  }
+
 html:hover .spider {
     top: -120%;
 }
